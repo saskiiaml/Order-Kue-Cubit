@@ -82,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
                     if (CBRed.isChecked()) rasa += CBRed.getText() + "\n";
                     if (CBGreen.isChecked()) rasa += CBGreen.getText() + "\n";
 
-                    if(rasa.length() == startlen) rasa += "(No object was choosem)";
+                    if(rasa.length() == startlen) rasa += "(No object was choosen)";
 
-                    String topping = "Topping pilihan :\n;";
+                    String topping = "Topping pilihan :\n";
                     int starttop = topping.length();
                     if (CBMes.isChecked()) topping += CBMes.getText() + "\n";
                     if (CBNut.isChecked()) topping += CBNut.getText() + "\n";
