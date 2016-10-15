@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String jumlah = spJumlah.getSelectedItem().toString();
 
-                    String rasa = "Rasa pilihan :\n;";
+                    String rasa = "Rasa pilihan :\n";
                     int startlen = rasa.length();
                     if (CBCklt.isChecked()) rasa += CBCklt.getText() + "\n";
                     if (CBRed.isChecked()) rasa += CBRed.getText() + "\n";
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if(topping.length() == starttop) topping += "(No object was choosen)";
 
-                    tvHasil.setText("Nama Pemesan   :" + nama + "\n" + "Jumlah Pesan    :" + jumlah + "\n" + "Pembayaran    :" + pay + "\n" + "Isi   :" + isi + "\n"
+                    tvHasil.setText("Nama Pemesan   : " + nama + "\n" + "Jumlah Pesan    : " + jumlah + "\n" + "Pembayaran    : " + pay + "\n" + "Isi   : " + isi + "\n"
                             + rasa + "\n" + topping );
                 }
             }
@@ -101,6 +101,23 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private boolean isValid() {
+        boolean valid = true;
+
+        String nama = isinama.getText().toString();
+        String pay = "";
+        String isi = "";
+
+        if(nama.isEmpty()) {
+            isinama.setError("Name must be filled!");
+            valid = false;
+        } else if (nama.length() <3){
+            isinama.setError("Name min have 3 characters");
+            valid = false;
+        } else {
+            isinama.setError(null);
+        }
+        return valid;
     }
 
 }
