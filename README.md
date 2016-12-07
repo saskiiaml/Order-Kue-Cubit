@@ -1,7 +1,5 @@
 # Order-Kue-Cubit
-
-Saski Amalia Hastuti, XIIRPL3,32, 4434/1333.070, SMK Telkom Malang
-
+---
 Link Download : https://drive.google.com/file/d/0B30Rrt23DXbBMVJtQnBoejJOdG8/view
 
 Aplikasi Order Kue Cubit ini memudahkan pengguna untuk memesan/*order* kue cubit menggunakan perangkat berbasis android.
@@ -13,3 +11,11 @@ Berikut saya beri screenshoot dari apilkasi ini :
 ![Gambar 2](https://github.com/saskiiaml/Order-Kue-Cubit/blob/master/02.png)
 ![Gambar 3](https://github.com/saskiiaml/Order-Kue-Cubit/blob/master/03.png)
 ![Gambar 3](https://github.com/saskiiaml/Order-Kue-Cubit/blob/master/04.png)
+
+---
+Identitas :
+* Nama    : Saski Amalia Hastuti
+* Kelas   : XIIRPL3
+* No.urut : 32 
+* NIS     : 4434/1333.070
+* Sekolah : SMK Telkom Malang
